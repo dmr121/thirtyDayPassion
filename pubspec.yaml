@@ -1,0 +1,35 @@
+name: thirtyDayPassion
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.16.1
+  provider: ^4.1.1
+  shrine_images: ^1.0.0
+  cupertino_icons: ^0.1.3
+  path_provider: ^1.6.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf
